@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Ethical Consumption Advisor",
+    "version": "1.0",
+    "description": "A Chrome extension that helps users make ethical consumption choices by providing information on companies' practices.",
+    "action":{
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "background":{
+        "service_worker":"background.js"
+    },
+    "permissions": ["tabs", "storage", "activateTab", "scripting"],
+    "host_permissions":["<all_urls>"]
+    
+}

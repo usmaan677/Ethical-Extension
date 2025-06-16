@@ -1,0 +1,15 @@
+{
+    "nike.com": {
+      "rating": "Low",
+      "alternative": "allbirds.com"
+    },
+    "zara.com": {
+      "rating": "Medium",
+      "alternative": "pactclothing.com"
+    },
+    "patagonia.com": {
+      "rating": "High",
+      "alternative": "n/a"
+    }
+  }
+  
